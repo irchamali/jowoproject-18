@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -61,7 +61,7 @@ $route['category/(:any)/(:num)'] = 'category/detail/$1/$2';
 $route['tag/(:any)'] = 'tag/detail/$1';
 $route['tag/(:any)/(:num)'] = 'tag/detail/$1/$2';
 $route['search'] = 'result/search/';
-$route['administrator'] = 'backend/login';
+$route['masuk'] = 'backend/login';
 $route['logout'] = 'backend/login/logout';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
