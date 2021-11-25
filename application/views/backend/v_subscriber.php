@@ -10,7 +10,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="Ircham Ali" />
-    <link rel="shortcut icon" href="<?php echo base_url() . 'assets/frontend/img/apple-touch-icon.png' ?>">
+    <link rel="shortcut icon" href="<?php echo base_url() . 'assets/frontend/images/fav.png' ?>">
 
     <!-- Styles -->
     <link href="<?php echo base_url() . 'assets/backend/plugins/pace-master/themes/blue/pace-theme-flash.css' ?>" rel="stylesheet" />
@@ -48,7 +48,7 @@
                     </a>
                 </div>
                 <div class="logo-box">
-                    <a href="<?php echo site_url('backend/dashboard'); ?>" class="logo-text"><span>POROZ</span></a>
+                    <a href="<?php echo site_url('backend/dashboard'); ?>" class="logo-text"><span>POSNU</span></a>
                 </div><!-- Logo Box -->
                 <div class="topmenu-outer">
                     <div class="top-menu">
@@ -220,17 +220,17 @@
                     <li class="active"><a href="<?php echo site_url('backend/subscriber'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-users"></span>
                             <p>Subscribers</p>
                         </a></li>
-                    
+
                     <?php if ($this->session->userdata('access') == '1') : ?>
-                    <li><a href="<?php echo site_url('backend/member'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-key"></span>
-                            <p>Member</p>
-                        </a></li>
-                    <li><a href="<?php echo site_url('backend/testimonial'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-like"></span>
-                            <p>Testimonials</p>
-                        </a></li>
-                    <li><a href="<?php echo site_url('backend/team'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-users"></span>
-                            <p>Teams</p>
-                        </a></li>
+                        <li><a href="<?php echo site_url('backend/member'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-key"></span>
+                                <p>Member</p>
+                            </a></li>
+                        <li><a href="<?php echo site_url('backend/testimonial'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-like"></span>
+                                <p>Testimonials</p>
+                            </a></li>
+                        <li><a href="<?php echo site_url('backend/team'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-users"></span>
+                                <p>Teams</p>
+                            </a></li>
                         <li><a href="<?php echo site_url('backend/users'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-user"></span>
                                 <p>Users</p>
                             </a></li>

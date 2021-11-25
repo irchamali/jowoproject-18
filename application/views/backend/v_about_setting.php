@@ -10,7 +10,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="Ircham Ali" />
-    <link rel="shortcut icon" href="<?php echo base_url() . 'assets/frontend/img/apple-touch-icon.png' ?>">
+    <link rel="shortcut icon" href="<?php echo base_url() . 'assets/frontend/images/fav.png' ?>">
 
     <!-- Styles -->
     <link href="<?php echo base_url() . 'assets/backend/plugins/pace-master/themes/blue/pace-theme-flash.css' ?>" rel="stylesheet" />
@@ -49,7 +49,7 @@
                     </a>
                 </div>
                 <div class="logo-box">
-                    <a href="<?php echo site_url('backend/dashboard'); ?>" class="logo-text"><span>POROZ</span></a>
+                    <a href="<?php echo site_url('backend/dashboard'); ?>" class="logo-text"><span>POSNU</span></a>
                 </div><!-- Logo Box -->
                 <div class="search-button">
                     <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
@@ -224,22 +224,22 @@
                     <li><a href="<?php echo site_url('backend/subscriber'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-users"></span>
                             <p>Subscribers</p>
                         </a></li>
-                    
+
                     <?php if ($this->session->userdata('access') == '1') : ?>
-                    <li><a href="<?php echo site_url('backend/member'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-key"></span>
-                            <p>Member</p>
-                        </a></li>
-                    <li><a href="<?php echo site_url('backend/testimonial'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-like"></span>
-                            <p>Testimonials</p>
-                        </a></li>
-                    <li><a href="<?php echo site_url('backend/team'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-users"></span>
-                            <p>Teams</p>
-                        </a></li>
-                    <li><a href="<?php echo site_url('backend/users'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-user"></span>
+                        <li><a href="<?php echo site_url('backend/member'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-key"></span>
+                                <p>Member</p>
+                            </a></li>
+                        <li><a href="<?php echo site_url('backend/testimonial'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-like"></span>
+                                <p>Testimonials</p>
+                            </a></li>
+                        <li><a href="<?php echo site_url('backend/team'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-users"></span>
+                                <p>Teams</p>
+                            </a></li>
+                        <li><a href="<?php echo site_url('backend/users'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-user"></span>
                                 <p>Users</p>
                             </a></li>
-                    <li class="droplink active open"><a href="<?php echo site_url('backend/settings'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-settings"></span>
-                            <p>Settings</p><span class="arrow"></span>
+                        <li class="droplink active open"><a href="<?php echo site_url('backend/settings'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-settings"></span>
+                                <p>Settings</p><span class="arrow"></span>
                             </a>
                             <ul class="sub-menu">
                                 <li><a href="<?php echo site_url('backend/settings'); ?>">Basic</a></li>
@@ -247,7 +247,7 @@
                                 <li class="active"><a href="<?php echo site_url('backend/about_setting'); ?>">About</a></li>
                                 <!-- <li><a href="<?php echo site_url('backend/navbar'); ?>">Navbar</a></li> -->
                             </ul>
-                    </li>
+                        </li>
 
                     <?php else : ?>
                     <?php endif; ?>
@@ -286,8 +286,8 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="input1" class="col-sm-2 control-label">Description</label>
-                                        <div class="col-sm-10">
-                                            <textarea name="description" class="form-control" id="summernote" placeholder="Description"><?php echo $about_desc; ?></textarea>
+                                        <div class="col-sm-10 col-lg-10">
+                                            <textarea name="description" class="form-control" rows="6" placeholder="Description"><?php echo $about_desc; ?></textarea>
                                         </div>
                                     </div>
                                     <div class="form-group">

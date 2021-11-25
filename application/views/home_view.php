@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -36,9 +36,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta name="twitter:image" content="<?php echo base_url() . 'assets/frontend/images/' . $site_image ?>" />
 
 	<!-- Google Fonts -->
-	<link
-		href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
 	<!-- Vendor CSS Files -->
 	<link href="<?= base_url(''); ?>assets/frontend/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -69,8 +67,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<h2 data-aos="fade-up" data-aos-delay="400"><?= $caption_2; ?>.</h2>
 					<div data-aos="fade-up" data-aos-delay="600">
 						<div class="text-center text-lg-start">
-							<a href="#about"
-								class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+							<a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
 								<span>Get Started</span>
 								<i class="bi bi-arrow-right"></i>
 							</a>
@@ -79,7 +76,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 				<div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
 					<img src="<?= base_url() . 'assets/frontend/images/' . $bg_header; ?>" class="img-fluid" alt="">
-				<!-- <img src="assets/frontend/img/features-2.png" class="img-fluid" alt=""> -->
+					<!-- <img src="assets/frontend/img/features-2.png" class="img-fluid" alt=""> -->
 					<!-- <img src="assets/frontend/img/hero-img.png" class="img-fluid" alt=""> -->
 				</div>
 			</div>
@@ -94,17 +91,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="container" data-aos="fade-up">
 				<div class="row gx-0">
 
-					<div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up"
-						data-aos-delay="200">
+					<div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
 						<div class="content">
 							<h3>Who We Are</h3>
-							<h2>Apa itu POROZ ?</h2>
+							<h2>Apa itu POSNU ?</h2>
 							<p>
-							<?= $about_desc; ?>
+								<?= $about_desc; ?>
 							</p>
 							<div class="text-center text-lg-start">
-								<a href="#features"
-									class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+								<a href="#features" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
 									<span>Read More</span>
 									<i class="bi bi-arrow-right"></i>
 								</a>
@@ -319,38 +314,38 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="tab-content">
 
 							<div class="tab-pane fade show" id="tab1">
-							<p>VISI POROZ</p>	
-							<h5>"Optimalisasi pengelolaan zakat, infak dan sedekah dalam meningkatkan taraf kehidupan masyarakat yang sejahtera dan berdaya."</h5>
+								<p>VISI POSNU</p>
+								<h5>"Membentuk tatanan masyarakat yang mandiri dalam ekonomi, berdaulat dalam politik, berkepribadian dalam kebudayaan, menjunjung tinggi persatuan dan kesatuan bangsa Indonesia dan menjunjung asas keadilan."</h5>
 							</div><!-- End Tab 1 Content -->
 
 							<div class="tab-pane fade show active" id="tab2">
-								<p>MISI POROZ</p>
+								<p>MISI POSNU</p>
 								<div class="d-flex align-items-center mb-2">
 									<i class="bi bi-check2"></i>
-									<h5>Mewujudkan organisasi pengelola zakat yang transparan, amanah dan profesional.</h5>
+									<h5>Mewujudkan organisasi pemuda yang transparan, amanah dan profesional.</h5>
 								</div>
 								<div class="d-flex align-items-center mb-2">
 									<i class="bi bi-check2"></i>
-									<h5>Memadukan potensi jaringan antar pengelola zakat untuk menjadi kekuatan yang menyatukan strategi pemberdayaan melalui pengelolaan ZIS.</h5>
+									<h5>Memadukan potensi jaringan untuk menjadi kekuatan yang menyatukan strategi pemberdayaan melalui pengelolaan yg akuntabel.</h5>
 								</div>
 								<div class="d-flex align-items-center mb-2">
 									<i class="bi bi-check2"></i>
-									<h5>Mendorong berbagai  usaha pengembangan ekonomi produktif yang berkelanjutan.</h5>
+									<h5>Mendorong berbagai usaha pengembangan ekonomi produktif yang berkelanjutan.</h5>
 								</div>
-								<div class="d-flex align-items-center mb-2">
+								<!-- <div class="d-flex align-items-center mb-2">
 									<i class="bi bi-check2"></i>
-									<h5>Melakukan upaya pengembangan SDM dalam bidang pengelolaan ZIS.</h5>
-								</div>
-											
+									<h5>Melakukan upaya pengembangan SDM dalam bidang.</h5>
+								</div> -->
+
 							</div><!-- End Tab 2 Content -->
 
 							<div class="tab-pane fade show" id="tab3">
-								<p>TUJUAN POROZ</p>
+								<p>TUJUAN POSNU</p>
 								<div class="d-flex align-items-center mb-2">
 									<i class="bi bi-check2"></i>
-									<h5>Terwujudnya jaringan antara pengelola zakat guna peningkatan pengelolaan zakat, penyatuan strategi pemberdayaan agar peran pengelola zakat berjalan optimal.</h5>
+									<h5>Membentuk tatanan masyarakat yang mandiri dalam ekonomi, berdaulat dalam politik, berkepribadian dalam kebudayaan, menjunjung tinggi persatuan dan kesatuan bangsa Indonesia dan menjunjung asas keadilan.</h5>
 								</div>
-								<div class="d-flex align-items-center mb-2">
+								<!-- <div class="d-flex align-items-center mb-2">
 									<i class="bi bi-check2"></i>
 									<h5>Terwujudnya peningkatan kesadaran masyarakat dalam berzakat.</h5>
 								</div>
@@ -365,7 +360,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<div class="d-flex align-items-center mb-2">
 									<i class="bi bi-check2"></i>
 									<h5>Terwujudnya jaringan dan kerjasama guna membangun hubungan aspiratif dengan pemerintah.</h5>
-								</div>
+								</div> -->
 							</div><!-- End Tab 3 Content -->
 
 						</div>
@@ -391,15 +386,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="col-xl-8 d-flex content">
 							<div class="row align-self-center gy-4">
 
-							<?php foreach ($member->result() as $memb) : ?>
-								<div class="col-md-6 icon-box" data-aos="fade-up">
-									<i class="ri-shield-user-line"></i>
-									<div>
-										<a href="<?= $memb->member_link; ?>"><h4><?= $memb->member_name; ?></h4></a>
-										<p><?= $memb->member_desc; ?></p>
+								<?php foreach ($member->result() as $memb) : ?>
+									<div class="col-md-6 icon-box" data-aos="fade-up">
+										<i class="ri-shield-user-line"></i>
+										<div>
+											<a href="<?= $memb->member_link; ?>">
+												<h4><?= $memb->member_name; ?></h4>
+											</a>
+											<p><?= $memb->member_desc; ?></p>
+										</div>
 									</div>
-								</div>
-							<?php endforeach; ?>
+								<?php endforeach; ?>
 
 								<!-- <div class="col-md-6 icon-box" data-aos="fade-up">
 									<i class="ri-shield-user-fill"></i>
@@ -484,9 +481,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="clients-slider swiper-container">
 					<div class="swiper-wrapper align-items-center">
 						<?php foreach ($member->result() as $memb) : ?>
-						<div class="swiper-slide"><a href="<?= $memb->member_link; ?>"><img src="<?= base_url() . 'assets/backend/images/member/' . $memb->member_image; ?>" class="img-fluid"
-								alt=""></a>
-						</div>
+							<div class="swiper-slide"><a href="<?= $memb->member_link; ?>"><img src="<?= base_url() . 'assets/backend/images/member/' . $memb->member_image; ?>" class="img-fluid" alt=""></a>
+							</div>
 						<?php endforeach; ?>
 						<!-- <div class="swiper-slide"><a href="https://nucare.id/"><img src="assets/frontend/img/clients/c1.png" class="img-fluid"
 								alt=""></a>
@@ -689,8 +685,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="accordion accordion-flush" id="faqlist1">
 							<div class="accordion-item">
 								<h2 class="accordion-header">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-										data-bs-target="#faq-content-1">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
 										Q: Apa itu POROZ ?
 									</button>
 								</h2>
@@ -703,22 +698,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 							<div class="accordion-item">
 								<h2 class="accordion-header">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-										data-bs-target="#faq-content-2">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
 										Q: Apa aja anggota POROZ ?
 									</button>
 								</h2>
 								<div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
 									<div class="accordion-body">
-									A: Ada tujuh organisasi anggota (NU Care - LAZISNU, LAZISMU, PZU, Laznas Dewan Dakwah, BMH, WIZ, dan Laznas Al-irsyad).
+										A: Ada tujuh organisasi anggota (NU Care - LAZISNU, LAZISMU, PZU, Laznas Dewan Dakwah, BMH, WIZ, dan Laznas Al-irsyad).
 									</div>
 								</div>
 							</div>
 
 							<div class="accordion-item">
 								<h2 class="accordion-header">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-										data-bs-target="#faq-content-3">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
 										Q: Dimana Kantor resmi POROZ ?
 									</button>
 								</h2>
@@ -739,8 +732,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 							<div class="accordion-item">
 								<h2 class="accordion-header">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-										data-bs-target="#faq2-content-1">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
 										Q: Bagaimana cara kami menghubungi ?
 									</button>
 								</h2>
@@ -753,31 +745,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 							<div class="accordion-item">
 								<h2 class="accordion-header">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-										data-bs-target="#faq2-content-2">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
 										Q: Apa tujuan berdirinya POROZ ?
 									</button>
 								</h2>
 								<div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
 									<div class="accordion-body">
 										<p><i class="bi bi-check2"></i>
-										Terwujudnya jaringan antara pengelola zakat guna peningkatan pengelolaan zakat, penyatuan strategi pemberdayaan agar peran pengelola zakat berjalan optimal.</p>
+											Terwujudnya jaringan antara pengelola zakat guna peningkatan pengelolaan zakat, penyatuan strategi pemberdayaan agar peran pengelola zakat berjalan optimal.</p>
 										<p><i class="bi bi-check2"></i>
-										Terwujudnya peningkatan kesadaran masyarakat dalam berzakat.</p>
+											Terwujudnya peningkatan kesadaran masyarakat dalam berzakat.</p>
 										<p><i class="bi bi-check2"></i>
-										Terwujudnya peningkatan kualitas SDM para pengelola zakat.</p>
+											Terwujudnya peningkatan kualitas SDM para pengelola zakat.</p>
 										<p><i class="bi bi-check2"></i>
-										Terwujudnya kerjasama yang baik dengan pengelola zakat nasional dan internasional.</p>
+											Terwujudnya kerjasama yang baik dengan pengelola zakat nasional dan internasional.</p>
 										<p><i class="bi bi-check2"></i>
-										Terwujudnya jaringan dan kerjasama guna membangun hubungan aspiratif dengan pemerintah.</p>
+											Terwujudnya jaringan dan kerjasama guna membangun hubungan aspiratif dengan pemerintah.</p>
 									</div>
 								</div>
 							</div>
 
 							<div class="accordion-item">
 								<h2 class="accordion-header">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-										data-bs-target="#faq2-content-3">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
 										Q: Siapakah Ketua Umum POROZ ?
 									</button>
 								</h2>
@@ -813,22 +803,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="swiper-wrapper">
 
 						<?php foreach ($testimonial->result() as $test) : ?>
-						<div class="swiper-slide">
-							<div class="testimonial-item">
-								<div class="stars">
-									<i class="bi bi-chat-quote"></i>
-								</div>
-								<p>
-									<?php echo $test->testimonial_content; ?>
-								</p>
-								<div class="profile mt-auto">
-									<img src="<?php echo base_url() . 'assets/backend/images/testi/' . $test->testimonial_image; ?>"
-										class="testimonial-img" alt="">
-									<h3><?php echo $test->testimonial_name; ?></h3>
-									<h4><?php echo $test->testimonial_org; ?></h4>
+							<div class="swiper-slide">
+								<div class="testimonial-item">
+									<div class="stars">
+										<i class="bi bi-chat-quote"></i>
+									</div>
+									<p>
+										<?php echo $test->testimonial_content; ?>
+									</p>
+									<div class="profile mt-auto">
+										<img src="<?php echo base_url() . 'assets/backend/images/testi/' . $test->testimonial_image; ?>" class="testimonial-img" alt="">
+										<h3><?php echo $test->testimonial_name; ?></h3>
+										<h4><?php echo $test->testimonial_org; ?></h4>
+									</div>
 								</div>
 							</div>
-						</div>
 						<?php endforeach; ?>
 						<!-- End testimonial item -->
 
@@ -978,7 +967,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<form action="" method="post" class="php-email-form">
 							<div class="row gy-4">
 
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5968696231766!2d106.84234061476891!3d-6.184671095522564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f504c2580197%3A0x7cdc70a95359ae1c!2sPOROZ!5e0!3m2!1sid!2sid!4v1627262869426!5m2!1sid!2sid" height="340" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5968696231766!2d106.84234061476891!3d-6.184671095522564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f504c2580197%3A0x7cdc70a95359ae1c!2sPOROZ!5e0!3m2!1sid!2sid!4v1627262869426!5m2!1sid!2sid" height="340" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 							</div>
 						</form>
@@ -997,8 +986,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<?= $footer; ?>
 	<!-- End Footer -->
 
-	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-			class="bi bi-arrow-up-short"></i></a>
+	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 	<!-- Vendor JS Files -->
 	<script src="<?= base_url(''); ?>assets/frontend/vendor/bootstrap/js/bootstrap.bundle.js"></script>

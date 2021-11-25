@@ -3,7 +3,7 @@
 
 <head>
     <!-- Title -->
-    <title>Sign in</title>
+    <title>Sign in | POSNU</title>
 
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta charset="UTF-8">
@@ -11,25 +11,25 @@
     <meta name="keywords" content="" />
     <meta name="author" content="Ircham Ali" />
     <meta name="robots" content="noindex, nofollow">
-    <link rel="shortcut icon" href="<?php echo base_url() . 'assets/frontend/img/apple-touch-icon.png' ?>">
+    <link rel="shortcut icon" href="<?= base_url() . 'assets/frontend/images/fav.png' ?>">
     <!-- Styles -->
-    <link href="<?php echo base_url() . 'assets/backend/plugins/pace-master/themes/blue/pace-theme-flash.css' ?>" rel="stylesheet" />
-    <link href="<?php echo base_url() . 'assets/backend/plugins/uniform/css/uniform.default.min.css' ?>" rel="stylesheet" />
-    <link href="<?php echo base_url() . 'assets/backend/plugins/bootstrap/css/bootstrap.min.css' ?>" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url() . 'assets/backend/plugins/fontawesome/css/font-awesome.css' ?>" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url() . 'assets/backend/plugins/line-icons/simple-line-icons.css' ?>" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url() . 'assets/backend/plugins/offcanvasmenueffects/css/menu_cornerbox.css' ?>" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url() . 'assets/backend/plugins/waves/waves.min.css' ?>" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url() . 'assets/backend/plugins/switchery/switchery.min.css' ?>" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url() . 'assets/backend/plugins/3d-bold-navigation/css/style.css' ?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() . 'assets/backend/plugins/pace-master/themes/blue/pace-theme-flash.css' ?>" rel="stylesheet" />
+    <link href="<?= base_url() . 'assets/backend/plugins/uniform/css/uniform.default.min.css' ?>" rel="stylesheet" />
+    <link href="<?= base_url() . 'assets/backend/plugins/bootstrap/css/bootstrap.min.css' ?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() . 'assets/backend/plugins/fontawesome/css/font-awesome.css' ?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() . 'assets/backend/plugins/line-icons/simple-line-icons.css' ?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() . 'assets/backend/plugins/offcanvasmenueffects/css/menu_cornerbox.css' ?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() . 'assets/backend/plugins/waves/waves.min.css' ?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() . 'assets/backend/plugins/switchery/switchery.min.css' ?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() . 'assets/backend/plugins/3d-bold-navigation/css/style.css' ?>" rel="stylesheet" type="text/css" />
 
     <!-- Theme Styles -->
-    <link href="<?php echo base_url() . 'assets/backend/css/modern.min.css' ?>" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url() . 'assets/backend/css/themes/green.css' ?>" class="theme-color" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url() . 'assets/backend/css/custom.css' ?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() . 'assets/backend/css/modern.min.css' ?>" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() . 'assets/backend/css/themes/green.css' ?>" class="theme-color" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() . 'assets/backend/css/custom.css' ?>" rel="stylesheet" type="text/css" />
 
-    <script src="<?php echo base_url() . 'assets/backend/plugins/3d-bold-navigation/js/modernizr.js' ?>"></script>
-    <script src="<?php echo base_url() . 'assets/backend/plugins/offcanvasmenueffects/js/snap.svg-min.js' ?>"></script>
+    <script src="<?= base_url() . 'assets/backend/plugins/3d-bold-navigation/js/modernizr.js' ?>"></script>
+    <script src="<?= base_url() . 'assets/backend/plugins/offcanvasmenueffects/js/snap.svg-min.js' ?>"></script>
 
 
 </head>
@@ -41,7 +41,7 @@
                 <div class="row">
                     <div class="col-md-3 center">
                         <div class="login-box">
-                            <a href="#" class="logo-name text-lg text-center">POROZ LOGIN</a>
+                            <a href="#" class="logo-name text-lg text-center">POSNU LOGIN</a>
                             <p class="text-center m-t-md">Please login into your account.</p>
                             <?php echo $this->session->flashdata('msg'); ?>
                             <form class="m-t-md" action="<?php echo site_url('backend/login/auth'); ?>" method="post">
