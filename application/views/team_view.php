@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,9 +14,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- SEO Tags -->
     <link rel="canonical" href="<?php echo $canonical; ?>" />
     <?php error_reporting(0);
-	if (empty($url_prev)) : ?>
+    if (empty($url_prev)) : ?>
     <?php else : ?>
-    <link rel="prev" href="<?php echo $url_prev; ?>" />
+        <link rel="prev" href="<?php echo $url_prev; ?>" />
     <?php endif; ?>
     <link rel="next" href="<?php echo $url_next; ?>" />
     <meta property="og:locale" content="id_ID" />
@@ -40,9 +40,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link href="<?= base_url(''); ?>assets/frontend/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="<?= base_url(''); ?>assets/frontend/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -83,32 +81,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="container" data-aos="fade-up">
 
                 <header class="section-header">
-                    <h2>Pengurus POROZ</h2>
-                    <P>Periode 2021-2023</p>
+                    <h2>Pengurus POSNU</h2>
+                    <P>Periode 2021-2025</p>
                 </header>
 
                 <div class="row gy-4">
 
-                <?php foreach ($team->result() as $team) : ?>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                        <div class="member">
-                            <div class="member-img">
-                                <img src="<?= base_url() . 'assets/backend/images/team/' . $team->team_image; ?>" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href="<?= $team->team_twitter; ?>"><i class="bi bi-twitter"></i></a>
-                                    <a href="<?= $team->team_facebook; ?>"><i class="bi bi-facebook"></i></a>
-                                    <a href="<?= $team->team_instagram; ?>"><i class="bi bi-instagram"></i></a>
-                                    <a href="<?= $team->team_linked; ?>"><i class="bi bi-linkedin"></i></a>
+                    <?php foreach ($team->result() as $team) : ?>
+                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                            <div class="member">
+                                <div class="member-img">
+                                    <img src="<?= base_url() . 'assets/backend/images/team/' . $team->team_image; ?>" class="img-fluid" alt="">
+                                    <div class="social">
+                                        <a href="<?= $team->team_twitter; ?>"><i class="bi bi-twitter"></i></a>
+                                        <a href="<?= $team->team_facebook; ?>"><i class="bi bi-facebook"></i></a>
+                                        <a href="<?= $team->team_instagram; ?>"><i class="bi bi-instagram"></i></a>
+                                        <a href="<?= $team->team_linked; ?>"><i class="bi bi-linkedin"></i></a>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4><?php echo $team->team_name; ?></h4>
+                                    <span><?php echo $team->team_org; ?></span>
+                                    <p></p>
                                 </div>
                             </div>
-                            <div class="member-info">
-                                <h4><?php echo $team->team_name; ?></h4>
-                                <span><?php echo $team->team_org; ?></span>
-                                <p></p>
-                            </div>
                         </div>
-                    </div>
-                <?php endforeach; ?>
+                    <?php endforeach; ?>
 
                     <!-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                         <div class="member">
@@ -465,8 +463,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <?= $footer; ?>
     <!-- End Footer -->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="<?= base_url(''); ?>assets/frontend/vendor/bootstrap/js/bootstrap.bundle.js"></script>

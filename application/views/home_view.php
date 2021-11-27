@@ -529,7 +529,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="service-box blue">
 							<i class="ri-discuss-line icon"></i>
 							<h3>Fundrising</h3>
-							<p>Membuat aksi nyata terhadap Palestina, baik berupa pernyataan sikap atau adanya event antar anggota.</p>
+							<p>Poros Sahabat Nusantara</p>
 							<a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
@@ -538,7 +538,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="service-box orange">
 							<i class="ri-discuss-line icon"></i>
 							<h3>Communication</h3>
-							<p>Komunikasi dengan BAZNAS untuk syarat-syarat apa saja yang bisa dipenuhi untuk menjalankan sebuah program.</p>
+							<p>Poros Sahabat Nusantara</p>
 							<a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
@@ -547,7 +547,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="service-box green">
 							<i class="ri-discuss-line icon"></i>
 							<h3>Empowering</h3>
-							<p>Memperjelas program Pemberdayaan Ekonomi dengan BAZNAS baik diskusi secara online atau offline.</p>
+							<p>Poros Sahabat Nusantara</p>
 							<a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
@@ -556,7 +556,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="service-box red">
 							<i class="ri-discuss-line icon"></i>
 							<h3>Sinergy</h3>
-							<p>Mempersiapkan Amil-Amil muda untuk mensinergikan atau untuk mencapai tujuan bersama.</p>
+							<p>Poros Sahabat Nusantara</p>
 							<a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
@@ -565,7 +565,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="service-box purple">
 							<i class="ri-discuss-line icon"></i>
 							<h3>Education</h3>
-							<p>Melakukan pelatihan-pelatihan reguler yang diakui oleh BNSP maupun pelatihan sertifikasi Amil.</p>
+							<p>Poros Sahabat Nusantara</p>
 							<a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
@@ -574,7 +574,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="service-box pink">
 							<i class="ri-discuss-line icon"></i>
 							<h3>Collaboration</h3>
-							<p>Memperkuat Kolaborasi antar lembaga untuk menjalankan sebuah program.</p>
+							<p>Poros Sahabat Nusantara</p>
 							<a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
@@ -686,12 +686,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<div class="accordion-item">
 								<h2 class="accordion-header">
 									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-										Q: Apa itu POROZ ?
+										Q: Apa itu POSNU ?
 									</button>
 								</h2>
 								<div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
 									<div class="accordion-body">
-										A: Perkumpulan Organisasi Pengelola Zakat atau asosiasi lembaga pengelola zakat yang bersifat nirlaba dan independen, sebagai wadah berhimpun Lembaga Amil Zakat (LAZ), terutama yang berbasis organisasi masyarakat Islam.
+										A: Poros Sahabat Nusantara (POSNU) merupakan Lembaga yang berbadan hukum dan telah disahkan oleh Kemenkumham dalam bentuk perkumpulan. POSNU bergerak pada aspek pendidikan, kesehatan, agama, sosial budaya, ekonomi, advokasi, hukum, HAM, serta pemberdayaan masyarakat.
 									</div>
 								</div>
 							</div>
@@ -699,12 +699,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<div class="accordion-item">
 								<h2 class="accordion-header">
 									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-										Q: Apa aja anggota POROZ ?
+										Q: Ada berapa lembaga/organisasi dalam POSNU ? ?
 									</button>
 								</h2>
 								<div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
 									<div class="accordion-body">
-										A: Ada tujuh organisasi anggota (NU Care - LAZISNU, LAZISMU, PZU, Laznas Dewan Dakwah, BMH, WIZ, dan Laznas Al-irsyad).
+										A: POSNU memiliki 36 Dewan Pengurus Cabang (DPC) yang berada di level Kota / Kabupaten yangtersebar di 6 Provinsi DKI Jakarta, Banten, Jawa Barat, Jawa Tengah, Jawa Timur, dan NTB. Anggota di kab/kota antara lain: Kab. Bandung Barat, Ciamis, Cirebon, Garut, Kediri, Karawang, Kuningan, Lebak, Loteng, Lobar, Lotim, Madiun, Ngawi, Serang, Subang, Tanggerang, Tasikmalaya, Kota Bandung, Kota Mataram, Kota serang, Kota Tanggerang, Kota Tasikmalaya, Kabupaten Bandung, Kab. Grobogan, Kab. Sumbawa, Kab. Sukabumi, Kota Jakarta Utara, Kab. Bogor, Kota Cilegon, Kota Jakarta timur, Kota Jakarta Barat, Kab. Jombang, Kab. Cianjur, Kota Jakarta Selatan, Kab. Cilacap.
 									</div>
 								</div>
 							</div>
@@ -712,12 +712,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<div class="accordion-item">
 								<h2 class="accordion-header">
 									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-										Q: Dimana Kantor resmi POROZ ?
+										Q: Dimana kantor resmi POSNU ?
 									</button>
 								</h2>
 								<div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
 									<div class="accordion-body">
-										A: Jl. Kramat Raya No.45, Kelurahan Kramat, Kecamatan Senen, Jakarta Pusat, Indonesia
+										A: Jl. Balai Rakyat Dalam VII/6 2 Rt 016/Rw 03 Kelurahan. Tugu Selatan-Koja- Kota Jakarta Utara.
 									</div>
 								</div>
 							</div>
@@ -733,12 +733,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<div class="accordion-item">
 								<h2 class="accordion-header">
 									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
-										Q: Bagaimana cara kami menghubungi ?
+										Q: Apakah POSNU telah berbadan hukum ?
 									</button>
 								</h2>
 								<div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
 									<div class="accordion-body">
-										A: Bisa menghubungi kami via email (<a href="mailto:porozofficial@gmil.com">porozofficial@gmil.com</a>) atau telpon ke <a href="tel:+6281367154227">+6281367154227</a>.
+										<p><i class="bi bi-check2"></i>
+											Akta Pendirian (Akta notaris : 22 September 2020, oleh Rohiman, S.H., M.Kn.)
+										</p>
+										<p><i class="bi bi-check2"></i>
+											SK kementerian Hukum dan HAM (AHU-0011261.AH.01.07.TAHUN 2020, tanggal 02 Desember 2020)
+										</p>
+										<p><i class="bi bi-check2"></i>
+											Rekening Lembaga (Bank Mandiri Cabang CIkini, No Rek 123-00-1003281-3. A.n.POROS SAHABAT NUSANTARA)
+										</p>
 									</div>
 								</div>
 							</div>
@@ -746,21 +754,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<div class="accordion-item">
 								<h2 class="accordion-header">
 									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
-										Q: Apa tujuan berdirinya POROZ ?
+										Q: Adakah kontak person yg bisa dihubungi ?
 									</button>
 								</h2>
 								<div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
 									<div class="accordion-body">
 										<p><i class="bi bi-check2"></i>
-											Terwujudnya jaringan antara pengelola zakat guna peningkatan pengelolaan zakat, penyatuan strategi pemberdayaan agar peran pengelola zakat berjalan optimal.</p>
+											Email: posnusahabatnusantara@gmail.com</p>
 										<p><i class="bi bi-check2"></i>
-											Terwujudnya peningkatan kesadaran masyarakat dalam berzakat.</p>
-										<p><i class="bi bi-check2"></i>
-											Terwujudnya peningkatan kualitas SDM para pengelola zakat.</p>
-										<p><i class="bi bi-check2"></i>
-											Terwujudnya kerjasama yang baik dengan pengelola zakat nasional dan internasional.</p>
-										<p><i class="bi bi-check2"></i>
-											Terwujudnya jaringan dan kerjasama guna membangun hubungan aspiratif dengan pemerintah.</p>
+											Instagram: posnuofficial</p>
 									</div>
 								</div>
 							</div>
@@ -768,12 +770,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<div class="accordion-item">
 								<h2 class="accordion-header">
 									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
-										Q: Siapakah Ketua Umum POROZ ?
+										Q: POSNU berdiri sejak kapan ?
 									</button>
 								</h2>
 								<div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
 									<div class="accordion-body">
-										A: Ketua Umum POROZ periode 2021-2023 yaitu Muhammad Abdurrouf, M.Hum.
+										A: Berdiri sejak 22 September 2020<br>
+										POSNU telah melaksanakan beberapa kegiatan yang berkecimpung langsung di masyarakat dan bekerjasama dengan pemerintah, swasta, maupun organisasi lain.
 									</div>
 								</div>
 							</div>
@@ -935,7 +938,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								<div class="info-box">
 									<i class="bi bi-geo-alt"></i>
 									<h3>Address</h3>
-									<p>Jl. Kramat Raya No.45<br>Senen, Jakarta Pusat</p>
+									<p>Jl. Balai Rakyat Dalam VII/6 2 Rt.016/Rw.03 Kel.Tugu Selatan Koja, Kota Jakarta Utara</p>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -949,14 +952,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								<div class="info-box">
 									<i class="bi bi-telephone"></i>
 									<h3>Call Us</h3>
-									<p><a href="tel:+62813-6715-4227">0813-6715-4227</a></p>
+									<p><a href="tel:+6285747801677">+62 857-4780-1677</a></p>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="info-box">
 									<i class="bi bi-envelope"></i>
 									<h3>Email Us</h3>
-									<p><a href="mailto:porozofficial@gmail.com">porozofficial@gmail.com</a></p>
+									<p><a href="mailto:official@posnu.id">official@posnu.id</a></p>
 								</div>
 							</div>
 						</div>
@@ -967,7 +970,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<form action="" method="post" class="php-email-form">
 							<div class="row gy-4">
 
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5968696231766!2d106.84234061476891!3d-6.184671095522564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f504c2580197%3A0x7cdc70a95359ae1c!2sPOROZ!5e0!3m2!1sid!2sid!4v1627262869426!5m2!1sid!2sid" height="340" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.552275534136!2d106.84187731476896!3d-6.190612495518306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f56a580eef4b%3A0x43884d74b43241f5!2sLKNU!5e0!3m2!1sen!2sid!4v1637991539058!5m2!1sen!2sid" height="340" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 							</div>
 						</form>
