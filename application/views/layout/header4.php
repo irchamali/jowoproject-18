@@ -2,12 +2,8 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
         <a href="<?= site_url(); ?>" class="logo d-flex align-items-center">
-			<img src="<?= base_url() . 'assets/frontend/images/' . $logo; ?>" width="145" height="40" alt="" />
-		</a>
-        <!-- <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt="">
-        <span>FlexStart</span>
-      </a> -->
+            <img src="<?= base_url() . 'assets/frontend/images/' . $logo; ?>" width="145" height="40" alt="" />
+        </a>
 
         <nav id="navbar" class="navbar">
             <ul>

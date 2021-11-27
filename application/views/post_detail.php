@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,9 +35,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link href="<?= base_url(''); ?>assets/frontend/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="<?= base_url(''); ?>assets/frontend/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -85,8 +83,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <article class="entry entry-single">
 
                             <div class="entry-img">
-                                <img src="<?= base_url() . 'assets/backend/images/post/' . $image; ?>" alt=""
-                                    class="img-fluid">
+                                <img src="<?= base_url() . 'assets/backend/images/post/' . $image; ?>" alt="" class="img-fluid">
                             </div>
 
                             <h2 class="entry-title">
@@ -95,14 +92,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                             <div class="entry-meta">
                                 <ul>
-                                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
-                                            href="#"><?= $author; ?></a></li>
-                                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="#"><time
-                                                datetime="2020-01-01"><?= date('d M Y', strtotime($date)); ?></time></a>
+                                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="#"><?= $author; ?></a></li>
+                                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="#"><time datetime="2020-01-01"><?= date('d M Y', strtotime($date)); ?></time></a>
                                     </li>
                                     <li class="d-flex align-items-center"><i class="bi bi-eye"></i><a href="#"><?php echo number_format($views) . ' views'; ?></a></li>
-                                    <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a
-                                            href="#"><?php echo number_format($comment); ?></a></li>
+                                    <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="#"><?php echo number_format($comment); ?></a></li>
                                 </ul>
                             </div>
 
@@ -121,11 +115,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <i class="bi bi-tags"></i>
                                 <ul class="tags">
                                     <?php
-										$split_tag = explode(",", $tags);
-										foreach ($split_tag as $tag) :
-										?>
-											<a href="<?= site_url('tag/' . $tag); ?>"><?= $tag; ?></a> &vert;
-									<?php endforeach; ?>
+                                    $split_tag = explode(",", $tags);
+                                    foreach ($split_tag as $tag) :
+                                    ?>
+                                        <a href="<?= site_url('tag/' . $tag); ?>"><?= $tag; ?></a> &vert;
+                                    <?php endforeach; ?>
                                 </ul>
                             </div>
 
@@ -137,44 +131,38 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                             <div id="comment-2" class="comment">
                                 <?php foreach ($show_comments->result() as $row) : ?>
-                                <div class="d-flex">
-                                    <div class="comment-img"><img alt=""
-                                            src="<?php echo base_url() . 'assets/backend/images/' . $row->comment_image; ?>">
-                                    </div>
-                                    <div>
-                                        <h5><a href="javascript:void(0)"><?php echo $row->comment_name; ?></a> <a
-                                                href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
-                                        <time
-                                            datetime="2020-01-01"><?php echo date('d M Y H:i:s', strtotime($row->comment_date)); ?></time>
-                                        <p>
-                                            <?php echo $row->comment_message; ?>
-                                        </p>
-                                    </div>
-                                </div>
-                                <?php
-									$comment_id = $row->comment_id;
-									$query = $this->db->query("SELECT * FROM tbl_comment WHERE comment_status='1' AND comment_parent='$comment_id'");
-									foreach ($query->result() as $i) :
-								?>
-                                <div id="comment-reply-1" class="comment comment-reply">
                                     <div class="d-flex">
-                                        <div class="comment-img"><img alt=""
-                                                src="<?php echo base_url() . 'assets/backend/images/' . $i->comment_image; ?>">
+                                        <div class="comment-img"><img alt="" src="<?php echo base_url() . 'assets/backend/images/' . $row->comment_image; ?>">
                                         </div>
                                         <div>
-                                            <h5><a href="javascript:void(0)"><?php echo $i->comment_name; ?></a> <a
-                                                    href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a>
-                                            </h5>
-                                            <time
-                                                datetime="2020-01-01"><?php echo date('d M Y H:i:s', strtotime($i->comment_date)); ?></time>
+                                            <h5><a href="javascript:void(0)"><?php echo $row->comment_name; ?></a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                                            <time datetime="2020-01-01"><?php echo date('d M Y H:i:s', strtotime($row->comment_date)); ?></time>
                                             <p>
-                                                <?php echo $i->comment_message; ?>
+                                                <?php echo $row->comment_message; ?>
                                             </p>
                                         </div>
                                     </div>
+                                    <?php
+                                    $comment_id = $row->comment_id;
+                                    $query = $this->db->query("SELECT * FROM tbl_comment WHERE comment_status='1' AND comment_parent='$comment_id'");
+                                    foreach ($query->result() as $i) :
+                                    ?>
+                                        <div id="comment-reply-1" class="comment comment-reply">
+                                            <div class="d-flex">
+                                                <div class="comment-img"><img alt="" src="<?php echo base_url() . 'assets/backend/images/' . $i->comment_image; ?>">
+                                                </div>
+                                                <div>
+                                                    <h5><a href="javascript:void(0)"><?php echo $i->comment_name; ?></a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a>
+                                                    </h5>
+                                                    <time datetime="2020-01-01"><?php echo date('d M Y H:i:s', strtotime($i->comment_date)); ?></time>
+                                                    <p>
+                                                        <?php echo $i->comment_message; ?>
+                                                    </p>
+                                                </div>
+                                            </div>
 
-                                </div><!-- End comment reply #1-->
-                                <?php endforeach; ?>
+                                        </div><!-- End comment reply #1-->
+                                    <?php endforeach; ?>
                                 <?php endforeach; ?>
                             </div>
                             <!-- End comment #2-->
@@ -189,18 +177,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         <input type="hidden" name="post_id" value="<?php echo $post_id; ?>" required>
                                         <input type="hidden" name="slug" value="<?php echo $slug; ?>" required>
                                         <div class="col-md-6 form-group">
-                                            <input name="name" type="text" maxlength="100" required=""
-                                                class="form-control" placeholder="Your Name*">
+                                            <input name="name" type="text" maxlength="100" required="" class="form-control" placeholder="Your Name*">
                                         </div>
                                         <div class="col-md-6 form-group">
-                                            <input name="email" type="email" maxlength="100" required=""
-                                                class="form-control" placeholder="Your Email*">
+                                            <input name="email" type="email" maxlength="100" required="" class="form-control" placeholder="Your Email*">
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col form-group">
-                                            <textarea name="comment" class="form-control" placeholder="Your Comment*"
-                                                maxlength="400" required></textarea>
+                                            <textarea name="comment" class="form-control" placeholder="Your Comment*" maxlength="400" required></textarea>
                                         </div>
                                     </div>
                                     <button type="submit" class="btn btn-primary">Post Comment</button>
@@ -227,19 +212,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                             <h3 class="sidebar-title">Related Posts</h3>
                             <?php foreach ($related_post->result() as $row) : ?>
-                            <div class="sidebar-item recent-posts">
-                                <div class="post-item clearfix">
-                                    <a href="<?= site_url('post/' . $row->post_slug); ?>" title="">
-                                        <img src="<?= base_url() . 'assets/backend/images/thumb/' . $row->post_image; ?>"
-                                            alt="">
-                                        <h4><a
-                                                href="<?= site_url('post/' . $row->post_slug); ?>"><?= $row->post_title; ?></a>
-                                        </h4>
-                                        <time
-                                            datetime="2021-01-01"><?= date('d M Y', strtotime($row->post_date)); ?></time>
-                                    </a>
+                                <div class="sidebar-item recent-posts">
+                                    <div class="post-item clearfix">
+                                        <a href="<?= site_url('post/' . $row->post_slug); ?>" title="">
+                                            <img src="<?= base_url() . 'assets/backend/images/post/' . $row->post_image; ?>" alt="">
+                                            <h4><a href="<?= site_url('post/' . $row->post_slug); ?>"><?= $row->post_title; ?></a>
+                                            </h4>
+                                            <time datetime="2021-01-01"><?= date('d M Y', strtotime($row->post_date)); ?></time>
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
                             <?php endforeach; ?>
                             <!-- End sidebar recent posts-->
 
@@ -247,8 +229,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="sidebar-item tags">
                                 <ul>
                                     <?php foreach ($all_tags->result() as $row) : ?>
-                                    <li><a href="<?= site_url('tag/' . $row->tag_name); ?>"><?= $row->tag_name; ?></a>
-                                    </li>
+                                        <li><a href="<?= site_url('tag/' . $row->tag_name); ?>"><?= $row->tag_name; ?></a>
+                                        </li>
                                     <?php endforeach; ?>
                                 </ul>
                             </div><!-- End sidebar tags-->
@@ -268,8 +250,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <?= $footer; ?>
     <!-- End Footer -->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="<?= base_url(''); ?>assets/frontend/vendor/bootstrap/js/bootstrap.bundle.js"></script>

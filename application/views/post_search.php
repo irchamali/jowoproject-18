@@ -12,9 +12,9 @@
     <!-- SEO Tags -->
     <link rel="canonical" href="<?php echo $canonical; ?>" />
     <?php error_reporting(0);
-	if (empty($url_prev)) : ?>
+    if (empty($url_prev)) : ?>
     <?php else : ?>
-    <link rel="prev" href="<?php echo $url_prev; ?>" />
+        <link rel="prev" href="<?php echo $url_prev; ?>" />
     <?php endif; ?>
     <link rel="next" href="<?php echo $url_next; ?>" />
     <meta property="og:locale" content="id_ID" />
@@ -38,9 +38,7 @@
     <link href="assets/frontend/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="<?= base_url(''); ?>assets/frontend/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -88,22 +86,16 @@
 
                 <div class="row">
                     <?php foreach ($data->result() as $row) : ?>
-                    <div class="col-lg-4 mb-8">
-                        <div class="post-box">
-                            <div class="post-img"><img
-                                    src="<?php echo base_url() . 'assets/backend/images/thumb/' . $row->post_image; ?>"
-                                    class="img-fluid" alt=""></div>
-                            <span class="post-date"><?php echo date('d M Y', strtotime($row->post_date)); ?> | <a
-                                    href="javascript:void(0)"></a>
-                                <?php echo $row->post_views . ' views'; ?></span>
-                            <h3 class="post-title"><a
-                                    href="<?= site_url('post/' . $row->post_slug); ?>"><?php echo $row->post_title; ?></a>
-                            </h3>
-                            <a href="<?php echo site_url('post/' . $row->post_slug); ?>"
-                                class="readmore stretched-link mt-auto"><span>Read More</span><i
-                                    class="bi bi-arrow-right"></i></a><br>
+                        <div class="col-lg-4 mb-8">
+                            <div class="post-box">
+                                <div class="post-img"><img src="<?php echo base_url() . 'assets/backend/images/post/' . $row->post_image; ?>" class="img-fluid" alt=""></div>
+                                <span class="post-date"><?php echo date('d M Y', strtotime($row->post_date)); ?> | <a href="javascript:void(0)"></a>
+                                    <?php echo $row->post_views . ' views'; ?></span>
+                                <h3 class="post-title"><a href="<?= site_url('post/' . $row->post_slug); ?>"><?php echo $row->post_title; ?></a>
+                                </h3>
+                                <a href="<?php echo site_url('post/' . $row->post_slug); ?>" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a><br>
+                            </div>
                         </div>
-                    </div>
                     <?php endforeach; ?>
                 </div><br><br>
                 <!--pagination-->
@@ -120,8 +112,7 @@
     <?= $footer; ?>
     <!-- End  Footer -->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="<?= base_url(''); ?>assets/frontend/vendor/bootstrap/js/bootstrap.bundle.js"></script>
